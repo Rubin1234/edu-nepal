@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/background.jpg);
+    position: relative;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+nav img{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 30px;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: "";
+    display: block;
+    background-color: rgb(203, 58, 58);
+    height: 2px;
+    width: 0%;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}

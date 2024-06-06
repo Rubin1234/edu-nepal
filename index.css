@@ -311,20 +311,25 @@ h3{
     width: 100%;
     text-align: center;
     padding-top: 60px;
+    padding-bottom: 60px;
+    background: color(srgb 0.1393 0.1493 0.1663);
+    color: white;
 }
 .footer h4{
     margin-bottom: 25px;
     margin-top: 25px;
     font-family: arial;
-    font-size: 24px;
+    font-size: 30px;
 }
 .footer p{
     font-weight: lighter;
     font-family: Helvetica;
 }
-.icons .fa{
-    color: black;
-    margin: 0 13px;
+.icons .fab{
+    margin: 10px;
     cursor: pointer;
-    padding: 18px 0;
+    font-size: 25px;
+}
+.icons a{
+    color: rgb(255, 0, 0);
 }

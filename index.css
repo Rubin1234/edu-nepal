@@ -153,7 +153,7 @@ p{
     font-family: sans-serif;
     font-weight: lighter;
 }
-h3{
+.h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
@@ -306,30 +306,74 @@ h3{
    font-family: helvetica;
    font-weight: bold;
 }
+
 /* footer */
-.footer{
+.main-div{
     width: 100%;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: color(srgb 0.1393 0.1493 0.1663);
+    background: rgba(15, 14, 14, 0.96);
+}
+.footer{
+    display: flex;
+    width: 80%;
+    padding: 60px;
+    margin: auto;
     color: white;
 }
-.footer h4{
-    margin-bottom: 25px;
-    margin-top: 25px;
+.footer-headings{
     font-family: arial;
-    font-size: 30px;
+}
+.footer div{
+    text-align: center;
+}
+.footer-coln-2{
+    flex-grow: 1;
+}
+.footer-heading{
+    font-family: arial;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 .footer p{
+    font-family: sans-serif;
     font-weight: lighter;
-    font-family: Helvetica;
 }
-.icons .fab{
-    margin: 10px;
+.footer-coln-1 a{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgb(244, 244, 244); 
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-coln-3 p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
     cursor: pointer;
-    font-size: 25px;
+}
+.icons{
+    margin-top: 20px;
+    font-size: 24px;
 }
 .icons a{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 5px;
 }

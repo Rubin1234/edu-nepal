@@ -133,6 +133,7 @@ nav .fa{
     font-weight: 300;
     line-height: 10px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 .row{
     margin-top: 5%;
@@ -142,13 +143,35 @@ nav .fa{
 }
 .course-coln{
     flex-basis: 31%;
-    background: #fff3ff;
+    background: #f1f1f1;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 29px 20px;
     box-sizing: border-box;
     transition: 0.7s;
 } 
+
+.course-coln p {
+    text-align: justify;
+}
+
+.course-coln .course-icon-headline{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+} 
+
+.course-coln .course-icon-headline h3{
+   margin-left: 5px;
+} 
+
+.course-coln .course-icon-headline i{
+    color: red;
+ } 
+
+
+
 p{
     font-family: sans-serif;
     font-weight: lighter;

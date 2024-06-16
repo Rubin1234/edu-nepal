@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+                <a href="index.html"><img src="Images/logo.png" alt=""></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+    </nav>
+    <div class="Heading-1">
+        <h1>About <span>Us</span></h1>
+    </div>
+    
+    </section>
+    <!-- Titile -->
+     <section class="descriptions">
+             <h1 class="Title-heading">Know More</h1>
+            <p class="Title-paragraph">About Us </p>
+     </section>
+     <!-- description -->
+      <section class="Description">
+        <div class="row">
+            <div class="coln">
+                    <p>Legal Remit is a fully owned subsidiary company of Lumbini Group Pty Ltd. Legal Remit was established in 2019 with the vision to make money transfers seamless. by a group of tThe idea of Legal Remit was formed hree friends who came to Australia from Nepal in the early 2000s. During their time as students in Australia, sending money was a headache. Many students become victims of those informal channels of sending money including one of our co-founders. Sending money from banks was even more difficult, it took a week for money to be delivered. The bank’s higher transfer fees and low rate offerings make it an even worse experience. Technology changed, innovation happened, time passed, and many remittance companies entered the market.</p>
+            </div>
+            <div class="coln">
+                   <img src="Images/library.png" alt="">
+            </div>            
+        </div>
+      </section>
+     
+     <!-- javascript fot toggle menu -->
+     <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

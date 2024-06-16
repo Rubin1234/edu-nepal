@@ -127,7 +127,7 @@ nav .fa{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 60px;
 }
 .heading-2{
     font-size: 36px;
@@ -163,17 +163,12 @@ nav .fa{
     justify-content: center;
     text-align: center;
 } 
-
 .course-coln .course-icon-headline h3{
    margin-left: 5px;
 } 
-
 .course-coln .course-icon-headline i{
     color: red;
  } 
-
-
-
 p{
     font-family: sans-serif;
     font-weight: lighter;
@@ -242,11 +237,16 @@ p{
     opacity: 1;
 }
 /* failities */
+.facilities-div{
+    background: rgba(15, 14, 14, 0.96);
+  
+}
 .facilities{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
+    color: white;
+    padding-top: 40px;
 }
 .facilities-coln{
     flex-basis: 31%;
@@ -275,7 +275,6 @@ p{
     margin: auto;
     width: 80%;
     padding-top: 60px;
-    padding-bottom: 60px;
 }
 .testimonials-coln{
     flex-basis: 44%;
@@ -327,7 +326,7 @@ p{
 }
 .Call h1{
     color: white;
-    margin-bottom: 40px;
+    margin-top: 40px;
     padding: 0;
    font-family: helvetica;
    font-weight: bold;

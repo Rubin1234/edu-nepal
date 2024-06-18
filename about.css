@@ -160,23 +160,121 @@ nav .fa{
 .Description{
     margin: auto;
     width: 80%;
+    margin-top: 10px;
+}
+.Description-coln p{
     text-align: center;
-    margin-top: 50px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+
+}
+.img-2{   
+    height: 40vh;
+    border-radius: 10px;
+}
+/* details */
+.main-detail{
+    margin: auto;
+    width: 75%;
+}
+.main-detail-2{
+    margin: auto;
+    width: 75%;
+  
+}
+.details-1{
+    background-color: rgb(224, 224, 224);
+    padding: 80px 30px;
+}
+.details-2{
+    background-color: rgb(204, 204, 204);
+    padding: 80px 30px;
 }
 .row{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.coln p{
-    text-align: justify;
-    margin: 20px;
+} 
+.paragraph-1{
+    text-align: justify;    
     font-size: 20px;
     font-weight: lighter;
     font-family: sans-serif;
-    box-sizing: border-box;
-}   
-.row img{
-    height: 40vh;
-    border-radius: 10px;
+    margin-left: 20px;
 }
+.paragraph-2{
+    text-align: justify;    
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+/* banner */
+.banner{
+    background-color: rgba(0, 0, 0, 0.87);  
+    color: white;
+    padding: 75px 60px;
+}
+.banner-row{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+        cursor: pointer;
+}
+.fa{
+    font-size: 24px;
+
+}
+.banner-coln{
+    padding-top: 5px;
+}
+.banner-row p{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: helvetica;
+    
+}
+.butn-1 {
+    display: block;
+    padding: 14px 26px 14px 26px;
+    font-size: 15px;
+    font-family: arial;
+    background: transparent;
+    border: 1px solid white;
+    color: red;
+    margin-top: 15px;
+    margin-left: -2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.butn-2 {
+    display: block;
+    padding: 14px 26px 14px 26px;
+    font-size: 15px;
+    font-family: arial;
+    background: transparent;
+    border: 1px solid white;
+    color: red;
+    margin-top: 15px;
+    margin-left: 32px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.butn-3 {
+    display: block;
+    padding: 14px 26px 14px 26px;
+    font-size: 15px;
+    font-family: arial;
+    background: transparent;
+    border: 1px solid white;
+    color: red;
+    margin-top: 15px;
+    margin-left: 26px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+

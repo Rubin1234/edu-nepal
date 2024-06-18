@@ -292,6 +292,8 @@ nav .fa{
     }
     .banner-coln a {
         font-size: 10px;
+        margin: 15px;
+        margin-left: 20px
     }
     .banner{
         padding: 20px 30px;

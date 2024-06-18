@@ -268,3 +268,74 @@ nav .fa{
     margin: 20px;
     color: red;
 }
+/* media query */
+@media (max-width:700px) {
+    .banner-row h1{
+        font-size: 14px;
+            margin-left: 0px;
+          
+    }
+    .icons a{
+        font-size: 18px;
+    }
+    .fa{
+        font-size: 24px;
+    }
+    .fa-users{
+        font-size: 14px;
+    }
+    .fa-line-chart{
+        font-size: 14px;
+    } 
+    .fa-globe{
+        font-size: 14px;
+    }
+    .banner-coln a {
+        font-size: 10px;
+    }
+    .banner{
+        padding: 20px 30px;
+    }
+    /* details */
+    .img-2{   
+    height: 30vh;
+    border-radius: 10px;
+    }
+    .img-1{   
+    height: 30vh;
+    border-radius: 10px;
+}
+.row{
+    flex-direction: column;
+} 
+.paragraph-1{
+    text-align: center;    
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.paragraph-2{
+    text-align: center;    
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+/* description */
+.Description-coln p{
+    font-size: 14px;
+}
+.Title-paragraph{
+font-size: 18px;
+}
+.Title-heading{
+    font-size: 21px;
+}
+.Heading-1{
+    font-size: 18px;
+}
+.header{
+    min-height: 30vh;
+}
+}

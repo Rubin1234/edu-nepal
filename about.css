@@ -175,6 +175,11 @@ nav .fa{
     height: 40vh;
     border-radius: 10px;
 }
+.img-1{   
+    height: 34vh;
+    border-radius: 10px;
+}
+
 /* details */
 .main-detail{
     margin: auto;
@@ -191,6 +196,10 @@ nav .fa{
 }
 .details-2{
     background-color: rgb(204, 204, 204);
+    padding: 80px 30px;
+}
+.details-3{
+    background-color: rgb(224, 224, 224);
     padding: 80px 30px;
 }
 .row{
@@ -216,13 +225,15 @@ nav .fa{
 .banner{
     background-color: rgba(0, 0, 0, 0.87);  
     color: white;
-    padding: 75px 60px;
+    padding: 52px 60px;
 }
 .banner-row{
         display: flex;
-        justify-content: space-around;
-        align-items: center;   
-        cursor: pointer;
+        width: 80%;
+        padding: 40px;
+        margin: auto;
+        color: white;
+        justify-content: space-between;
 }
 .fa{
     font-size: 24px;
@@ -231,50 +242,29 @@ nav .fa{
 .banner-coln{
     padding-top: 5px;
 }
-.banner-row p{
+.banner-row h1{
     display: inline-block;
     font-size: 20px;
     margin-left: 10px;
     font-family: helvetica;
-    
+    text-decoration: underline;
 }
-.butn-1 {
+.banner-coln a {
+    text-decoration: none;
+    color: rgb(244, 244, 244);
     display: block;
-    padding: 14px 26px 14px 26px;
-    font-size: 15px;
-    font-family: arial;
-    background: transparent;
-    border: 1px solid white;
-    color: red;
-    margin-top: 15px;
-    margin-left: -2px;
-    cursor: pointer;
-    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-family: Arial;
 }
-.butn-2 {
-    display: block;
-    padding: 14px 26px 14px 26px;
-    font-size: 15px;
-    font-family: arial;
-    background: transparent;
-    border: 1px solid white;
-    color: red;
-    margin-top: 15px;
-    margin-left: 32px;
-    cursor: pointer;
-    border-radius: 30px;
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.butn-3 {
-    display: block;
-    padding: 14px 26px 14px 26px;
-    font-size: 15px;
-    font-family: arial;
-    background: transparent;
-    border: 1px solid white;
+.icons a{
+    font-size: 30px;
+    margin: 20px;
     color: red;
-    margin-top: 15px;
-    margin-left: 26px;
-    cursor: pointer;
-    border-radius: 30px;
 }
-

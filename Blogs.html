@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="Blogs.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+                <a href="index.html"><img src="Images/logo.png" alt=""></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+    </nav>
+   
+    </section>
+    <section class="blog">
+        <div class="blog-heading">
+            <span>My Recent Post</span>
+            <h1>My Blog</h1>
+        </div>
+        <!-- blog-container-->
+         <div class="blog-container">
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="Images/london.png" alt="blogs">
+                </div>
+                <div class="blog-text">
+                    <p>18 July 2021 / Web Design</p>
+                    <a href="" class="blog-tiitle">What has happen to all the web design?</a>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga obcaecati, adipisci sit nulla, itaque officiis, eos ratione amet ad ullam sequi sunt natus aspernatur quod ex! Distinctio velit officiis odio.</p>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="Images/london.png" alt="blogs">
+                </div>
+                <div class="blog-text">
+                    <p>18 July 2021 / Web Design</p>
+                    <a href="" class="blog-tiitle">What has happen to all the web design?</a>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga obcaecati, adipisci sit nulla, itaque officiis, eos ratione amet ad ullam sequi sunt natus aspernatur quod ex! Distinctio velit officiis odio.</p>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="Images/london.png" alt="blogs">
+                </div>
+                <div class="blog-text">
+                    <p>18 July 2021 / Web Design</p>
+                    <a href="" class="blog-tiitle">What has happen to all the web design?</a>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga obcaecati, adipisci sit nulla, itaque officiis, eos ratione amet ad ullam sequi sunt natus aspernatur quod ex! Distinctio velit officiis odio.</p>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+         </div>
+    </section>
+    <!-- javascript fot toggle menu -->
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+    </html>

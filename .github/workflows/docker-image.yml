@@ -3,7 +3,7 @@ name: Build and Deploy to Netlify
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -16,11 +16,11 @@ jobs:
         uses: docker/setup-buildx-action@v1
 
       - name: Build Docker image
-        run: docker build -t my-simple-spa .
+        run: docker build -t my-web-app .
 
       - name: Extract static files
         run: |
-          container_id=$(docker create my-simple-spa)
+          container_id=$(docker create my-web-app)
           docker cp $container_id:/usr/share/nginx/html ./output
           docker rm $container_id
 

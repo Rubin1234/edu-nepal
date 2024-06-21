@@ -158,11 +158,15 @@ nav .fa{
 }
 .blog-heading span{
     color: #f33c3c;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    font-family: sans-serif;
 }
 .blog-heading h1{
-    font-size: 2.4rem;
+    font-size: 1.9rem;
     font-weight: 600;
     color: #2b2b2b;
+    margin-top: 7px;
 }
 .blog-container{
     display: flex;
@@ -176,10 +180,12 @@ nav .fa{
     background: white;
     border: 1px solid #ececee;
     margin:20px;
+    border-radius: 20px;
 }
 .blog-img{
     width: 100%;
     height: auto;
+    
 }
 .blog-img img{
     width:100%;
@@ -197,10 +203,11 @@ nav .fa{
     font-size: 0.9rem;
 }
 .blog-text .blog-tiitle{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
     color: #272727;
     text-decoration: none;
+    font-family: helvetica;
 }
 .blog-text .blog-tiitle:hover{
     color: #f33c3c;
@@ -218,8 +225,12 @@ nav .fa{
 }
 .blog-text a{
     color: #0f0f0f;
+    font-family: helvetica;
+    font-size: 1rem;
 }
 .blog-text a:hover{
     color: #f33c3c;
     transition: all ease 0.3s;
 }
+
+

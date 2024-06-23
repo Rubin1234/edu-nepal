@@ -186,6 +186,15 @@ p{
     .row{
         flex-direction: column;
     }  
+    .course-coln{
+        margin-bottom: 10px;
+    }
+    .campus-coln{
+        margin-bottom: 20px;
+    }
+    .facilities-coln{
+        margin-bottom: 20px;
+    }
 }
 /* campus */
 .campus{
@@ -321,8 +330,14 @@ p{
         margin-right: 15px;
     }
    .Call h1{
-    font-size: 24px;
+    font-size: 16px;
    } 
+   .testimonials-coln{
+    margin-bottom: 20px;
+   }
+   .testimonials-coln p{
+    text-align: justify;
+   }
 }
 /* call */
 .Call{
@@ -417,7 +432,7 @@ form button{
         font-size: 12px;
     }
     .footer-heading{
-        font-size: 18px;
+        font-size: 10px;
     }
     form input{
         width: 200px;
@@ -432,4 +447,8 @@ form button{
     .icons{
         font-size: 16px;
     }
+    .heading-2{
+        line-height: 30px;
+    }
+
 }

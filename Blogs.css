@@ -10,9 +10,6 @@
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/background.jpg);
     position: relative;
 }
-span{
-    color: red;
-}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -97,7 +94,9 @@ nav .fa{
     font-size: 20px;
 }
 h1{
-    font-family: Helvetica;
+    font-size: 36px;
+    color: rgba(15, 14, 14, 0.96);
+    font-weight: 300;
 }
 nav .fa{
     display: none;
@@ -157,15 +156,15 @@ nav .fa{
     flex-direction: column;
 }
 .blog-heading span{
-    color: #f33c3c;
-    font-size: 0.8rem;
-    font-weight: lighter;
-    font-family: sans-serif;
+    font-size: 36px;
+    color: rgba(255, 24, 24, 0.96);
+    font-weight: 300;
+    line-height: 10px;   
 }
 .blog-heading h1{
-    font-size: 1.9rem;
+    font-size: 36px;
     font-weight: 600;
-    color: #2b2b2b;
+    color: #505050;
     margin-top: 7px;
 }
 .blog-container{
@@ -199,15 +198,15 @@ nav .fa{
     flex-direction: column;
 }
 .blog-text p{
-    color: #f33c3c;
-    font-size: 0.9rem;
+    font-weight: lighter;
+    font-family: sans-serif;
 }
 .blog-text .blog-tiitle{
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #272727;
     text-decoration: none;
-    font-family: helvetica;
+    font-family: arial;
 }
 .blog-text .blog-tiitle:hover{
     color: #f33c3c;
@@ -227,6 +226,8 @@ nav .fa{
     color: #0f0f0f;
     font-family: helvetica;
     font-size: 1rem;
+    font-family: arial;
+    font-weight: 400;
 }
 .blog-text a:hover{
     color: #f33c3c;

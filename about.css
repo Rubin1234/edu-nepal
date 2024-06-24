@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .header{
     width: 100%;
     min-height: 40vh;
@@ -98,7 +99,8 @@ nav .fa{
     margin-top: 62px;
 }
 h1{
-    font-family: Helvetica;
+    font-weight: 300;
+    padding: 25px;
 }
 nav .fa{
     display: none;
@@ -176,7 +178,7 @@ nav .fa{
     border-radius: 10px;
 }
 .img-1{   
-    height: 34vh;
+    height: 40vh;
     border-radius: 10px;
     margin-left: 20px;
 }
@@ -184,25 +186,28 @@ nav .fa{
 /* details */
 .main-detail{
     margin: auto;
-    width: 75%;
+    width: 80%;
 }
 .main-detail-2{
     margin: auto;
-    width: 75%;
-  
+    width: 80%;
+}
+.details-1-div{
+    width: 100%;
+    background-color: whitesmoke;
 }
 .details-1{
-    background-color: rgb(224, 224, 224);
-    padding: 80px 30px;
+    padding: 40px;
+    width: 80%;
+    margin: auto;  
 }
-.details-2{
-    background-color: rgb(204, 204, 204);
-    padding: 80px 30px;
-}
-.details-3{
-    background-color: rgb(224, 224, 224);
-    padding: 80px 30px;
-}
+
+h3{
+    margin-left: 17px;
+    font-size: 29px;
+    color: rgba(15, 14, 14, 0.96);
+    font-weight: 300;
+}   
 .row{
     display: flex;
     justify-content: space-around;
@@ -210,7 +215,7 @@ nav .fa{
 } 
 .paragraph-1{
     text-align: justify;    
-    font-size: 20px;
+    font-size: 19px;
     font-weight: lighter;
     font-family: sans-serif;
     margin-left: 20px;

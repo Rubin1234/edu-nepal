@@ -225,7 +225,6 @@ h3{
 .banner{
     background-color: rgba(0, 0, 0, 0.87);  
     color: white;
-    padding: 52px 60px;
 }
 .banner-row{
         display: flex;
@@ -269,13 +268,13 @@ h3{
     color: red;
 }
 /* media query */
-@media (max-width:700px) {
+@media (max-width:900px) {
     .banner-row h1{
         font-size: 13px;
-            margin-left: 0px;    
+            margin-left: -25px;    
     }
     .banner-row {
-        width: 90%;
+        width: 80%;
         padding: 40px;
         margin: auto;
       }  
@@ -311,16 +310,17 @@ h3{
     height: 26vh;
     border-radius: 10px;
     margin-top: 20px;
+    margin-left: 0;
 }
 .row{
     flex-direction: column;
 } 
-.paragraph-1{
-    text-align: center;    
+.paragraph-1{  
     font-size: 12px;
     font-weight: lighter;
     font-family: sans-serif;
     margin-top: 20px;
+    text-align: justify;
 }
 /* description */
 .Description-coln p{
@@ -338,4 +338,17 @@ font-size: 18px;
 .header{
     min-height: 30vh;
 }
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+}
+@media (min-width: 922px) {
+    .img-2{   
+        height: 26vh;
+        }
+        .img-1{   
+        height: 26vh;
+    }
 }

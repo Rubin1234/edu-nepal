@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+                <a href="index.html"><img src="Images/logo.png" alt=""></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a href="Blogs.html">Blogs</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+    </nav>
+    </section>
+        <!-- javascript fot toggle menu -->
+        <script>
+            var navlinks= document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+    </html>
+   

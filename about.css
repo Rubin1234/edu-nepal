@@ -222,86 +222,10 @@ h3{
     line-height: 27px;
 }
 
-/* banner */
-.banner{
-    background-color: rgba(0, 0, 0, 0.87);  
-    color: white;
-}
-.banner-row{
-        display: flex;
-        width: 80%;
-        padding: 40px;
-        margin: auto;
-        color: white;
-        justify-content: space-between;
-}
-.fa{
-    font-size: 24px;
 
-}
-.banner-coln{
-    padding-top: 5px;
-}
-.banner-row h1{
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 10px;
-    font-family: helvetica;
-    text-decoration: underline;
-}
-.banner-coln a {
-    text-decoration: none;
-    color: rgb(244, 244, 244);
-    display: block;
-    margin-bottom: 10px;
-    margin-left: 45px;
-    margin-top: 10px;
-    font-family: Arial;
-}
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icons a{
-    font-size: 30px;
-    margin: 20px;
-    color: red;
-}
 /* media query */
-@media (max-width:900px) {
-    .banner-row h1{
-        font-size: 13px;
-            margin-left: -25px;    
-    }
-    .banner-row {
-        width: 80%;
-        padding: 40px;
-        margin: auto;
-      }  
-    .icons a{
-        font-size: 18px;
-    }
-    .fa{
-        font-size: 24px;
-    }
-    .fa-users{
-        font-size: 14px;
-    }
-    .fa-line-chart{
-        font-size: 14px;
-    } 
-    .fa-globe{
-        font-size: 14px;
-    }
-    .banner-coln a {
-        font-size: 10px;
-        margin: 15px;
-        margin-left: 20px
-    }
-    .banner{
-        padding: 20px 30px;
-    }
+@media (max-width:700px) {
+    
     /* details */
     .img-2{   
     height: 26vh;
@@ -358,3 +282,110 @@ h3{
         height: 26vh;
     }
 }
+/* footer */
+h4{
+    color: white;
+}
+.main-div{
+    width: 100%;
+    background: rgba(15, 14, 14, 0.96);
+    overflow: hidden;
+}
+.footer{
+    display: flex;
+    width: 80%;
+    padding: 60px;
+    margin: auto;
+    color: white;
+}
+.footer-headings{
+    font-family: arial;
+}
+.footer div{
+    text-align: center;
+}
+.footer-coln-2{
+    flex-grow: 1;
+}
+.footer-heading{
+    font-family: arial;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.footer-coln-1 a{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgb(244, 244, 244); 
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-coln-3 p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.icons a{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+@media (max-width:700px) {
+    .footer{
+        font-size: 12px;
+        padding: 40px;
+        color: white;
+        justify-content: space-around;
+    }
+
+    .footer-heading{
+        font-size: 10px;
+    }
+    form input{
+        width: 135px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    form button{
+        font-size: 12px;
+        padding: 5px 20px;
+        
+    }
+    .icons{
+        font-size: 16px;
+    }
+    .heading-2{
+        line-height: 30px;
+    }
+
+}
+@media (max-width:322px) {
+    
+}
+

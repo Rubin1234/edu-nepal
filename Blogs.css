@@ -4,7 +4,7 @@
 }
 .header{
     width: 100%;
-    min-height: 10vh;
+    min-height: 40vh;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/background.jpg);
@@ -86,18 +86,7 @@ nav{
 nav .fa{
     display: none;
 }
-.Heading-1{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    color: white; 
-    font-size: 20px;
-}
-h1{
-    font-size: 36px;
-    color: rgba(15, 14, 14, 0.96);
-    font-weight: 300;
-}
+
 nav .fa{
     display: none;
 }
@@ -154,6 +143,7 @@ nav .fa{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 62px;
 }
 .blog-heading span{
     font-size: 36px;
@@ -164,8 +154,9 @@ nav .fa{
 .blog-heading h1{
     font-size: 36px;
     font-weight: 600;
-    color: #505050;
+    color: #ffffff;
     margin-top: 7px;
+    padding: 25px;
 }
 .blog-container{
     display: flex;
@@ -236,5 +227,106 @@ nav .fa{
     color: #f33c3c;
     transition: all ease 0.3s;
 }
+.main-div{
+    width: 100%;
+    background: rgba(15, 14, 14, 0.96);
+    overflow: hidden;
+}
+.footer{
+    display: flex;
+    width: 80%;
+    padding: 60px;
+    margin: auto;
+    color: white;
+}
+.footer-headings{
+    font-family: arial;
+}
+.footer div{
+    text-align: center;
+}
+.footer-coln-2{
+    flex-grow: 1;
+}
+.footer-heading{
+    font-family: arial;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.footer-coln-1 a{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgb(244, 244, 244); 
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-coln-3 p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.icons a{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+@media (max-width:700px) {
+    .footer{
+        font-size: 12px;
+        padding: 40px;
+        color: white;
+        justify-content: space-around;
+    }
 
+    .footer-heading{
+        font-size: 10px;
+    }
+    form input{
+        width: 135px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    form button{
+        font-size: 12px;
+        padding: 5px 20px;
+        
+    }
+    .icons{
+        font-size: 16px;
+    }
+    .heading-2{
+        line-height: 30px;
+    }
+
+}
+@media (max-width:322px) {
+    
+}
 

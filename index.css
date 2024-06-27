@@ -127,8 +127,8 @@ nav .fa{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .heading-2{
     font-size: 36px;
@@ -201,8 +201,8 @@ p{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .campus-coln{
     flex-basis: 31%;
@@ -258,8 +258,8 @@ p{
     margin: auto;
     text-align: center;
     color: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .facilities-coln{
     flex-basis: 31%;
@@ -286,8 +286,8 @@ p{
     text-align: center;
     margin: auto;
     width: 80%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .testimonials-coln{
     flex-basis: 44%;

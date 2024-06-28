@@ -5,6 +5,7 @@
 
 .header{
     width: 100%;
+    min-height: 40vh;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/background.jpg);
@@ -144,6 +145,8 @@ h1{
 text-align: center;
 font-size: 35px;
 font-weight: 300;
+color: white;
+margin-top: 62px;
 }
 span{
     color: red;
@@ -151,4 +154,143 @@ span{
 .section-1{
     width: 80%;
     margin: auto;
+}
+.main-container{
+    margin-top: 50px;
+}
+.container-img{
+    display: flex;
+    justify-content:   space-around;
+}
+.container-img img{
+    height: 64vh;
+    margin: 10px;
+    box-shadow: 0 0 20px 0 rgba(163, 162, 162, 0.866);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container-img img:hover{
+    scale: 1.1;
+}   
+p{
+    text-align: center;
+    line-height: 20px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.button a{
+    border: 1px solid ;
+    padding: 18px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 18px; 
+    font-family: sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+/* footer */
+.main-div{
+    width: 100%;
+    background: rgba(15, 14, 14, 0.96);
+}
+.footer{
+    display: flex;
+    width: 80%;
+    padding: 60px;
+    margin: auto;
+    color: white;
+    margin-top: 30px;
+}
+.footer-headings{
+    font-family: arial;
+}
+.footer div{
+    text-align: center;
+}
+.footer-coln-2{
+    flex-grow: 1;
+}
+.footer-heading{
+    font-family: arial;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.footer-coln-1 a{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgb(244, 244, 244); 
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-coln-3 p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.icons a{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+@media (max-width:700px) {
+    .footer{
+        font-size: 12px;
+        padding: 40px;
+        color: white;
+        justify-content: space-around;
+    }
+    .footer-heading{
+        font-size: 10px;
+    }
+    form input{
+        width: 135px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    form button{
+        font-size: 12px;
+        padding: 5px 20px;
+        
+    }
+    .icons{
+        font-size: 16px;
+    }
+    .heading-2{
+        line-height: 30px;
+    }
+
 }

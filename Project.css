@@ -188,6 +188,11 @@ p{
     color: white;
     font-size: 18px; 
     font-family: sans-serif;
+    transition: 0.7s;
+
+}   
+.button :hover{
+    border-radius: 30px ;
 }
 .button{
     display: flex;
@@ -292,5 +297,14 @@ form button{
     .heading-2{
         line-height: 30px;
     }
-
+    .container-img img{
+        height: 17vh;
+    }
+    p{
+        font-size: 13px;
+    }
+    .button a{
+        font-size: 13px;
+        padding: 12px;
+    }
 }

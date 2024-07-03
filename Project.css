@@ -160,7 +160,8 @@ span{
 }
 .container-img{
     display: flex;
-    justify-content:   space-around;
+    justify-content:  space-between;
+    align-items: center;
 }
 .container-img img{
     height: 64vh;
@@ -169,9 +170,7 @@ span{
     cursor: pointer;
     transition: 0.5s;
 }
-.container-img img:hover{
-    scale: 1.1;
-}   
+ 
 p{
     text-align: center;
     line-height: 20px;
@@ -297,8 +296,14 @@ form button{
     .heading-2{
         line-height: 30px;
     }
+    .container-img{
+        flex-direction: column;
+    }
     .container-img img{
-        height: 17vh;
+        height: 60vh;
+    }
+    .container-row{
+        margin: 0;
     }
     p{
         font-size: 13px;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+                <a href="index.html"><img src="Images/logo.png" alt=""></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a href="Blogs.html">Blogs</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+    </nav>
+    <div class="heading-1">
+    <h1><Span>Contact</Span>Us</h1>
+</div>
+    </section>
+    <!-- details -->
+     <section>
+        <div class="detail-container">
+        <div class="container">
+            <div class="detail-1">
+                <h2><i class="fa fa-calendar" aria-hidden="true"></i> Hours of Operations</h2>
+            </div>
+                <div class="detail-1">
+                    <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+                </div>
+                    <div class="detail-1">
+                        <h2><i class="fa fa-envelope" aria-hidden="true"></i> General inquiries</h2>
+                    </div>
+        </div>
+        
+    </div>
+     </section>
+     <!-- javascript fot toggle menu -->
+     <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+    </html>

@@ -11,11 +11,11 @@
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/background.jpg);
     position: relative;
 }
-.nav-links{
+.header .nav-links{
     flex: 1;
     text-align: right;
 }
-nav img{
+.header nav img{
     width: 150px;
     margin: 15px 30px;
 }
@@ -144,13 +144,9 @@ nav .fa{
 span{
     color: red;
 }
-section{
-    width: 80%;
-    margin: auto;
-}
+
 .detail-2{
-    margin-left: -100px;
-    margin-right: -10px;
+ 
 }
 .heading-1{
     display: flex;
@@ -160,7 +156,10 @@ section{
     font-size: 25px;
     margin-top: 62px;
 }
-
+section{
+    width: 80%;
+    margin: auto;
+}
 .container{
     display: flex;
     justify-content: space-around;
@@ -302,4 +301,27 @@ form button{
         line-height: 30px;
     }
 
+}
+/* contact us */
+@media (max-width:700px) {
+
+     .container p{
+        font-size: 9px;
+    }
+    .container a{
+        font-size: 9px;
+        padding: 0;
+    }
+    .paragraph p{
+        font-size: 12px;
+    }
+    .paragraph .paragraph-details{
+        font-size: 17px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .fa{
+        font-size: 14px;
+    }
 }

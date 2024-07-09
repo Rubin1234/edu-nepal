@@ -10,6 +10,9 @@
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/background.jpg);
     position: relative;
 }
+span{
+    color: red;
+}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -17,6 +20,18 @@
 nav img{
     width: 150px;
     margin: 15px 30px;
+}
+.Heading-1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white; 
+    font-size: 25px;
+    margin-top: 62px;
+}
+h1{
+    font-weight: 300;
+    padding: 25px;
 }
 nav{
     display: flex;

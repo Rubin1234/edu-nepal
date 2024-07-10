@@ -164,24 +164,50 @@ section{
     color: red;
 }
 .fa-phone{
-    font-size: 25px;
+    font-size: 19px;
 }
 .fa-envelope{
-    font-size: 25px;
+    font-size: 20px;
     color: red;
 }
-.row{
-   display: flex;
-   align-items: center;
-   gap: 15px;
-   line-height: 10px;
+.fa-thumbs-up{
+    font-size: 21px;
+    color: red;
 }
-.row h1{
+p{
     font-weight: 300;
     font-size: 17px;
     color: rgba(15, 14, 14, 0.96);
     font-family: sans-serif;
+    letter-spacing: 4px;
 }
-.row h1 a{
-    color: black;
+.fa-brands{
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 8px;
+}
+h1{
+    display: block;
+}
+.wrapper-row{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 30px;
+}
+.rows-detail a{
+    font-weight: 300;
+    font-size: 17px;
+    color: rgba(15, 14, 14, 0.96);
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+.wrapper{
+    width: 350px;
+    display: inline-block;
+}
+.wrapper h1{
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    margin-bottom: -25px;   
 }

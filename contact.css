@@ -186,9 +186,6 @@ p{
     cursor: pointer;
     letter-spacing: 8px;
 }
-h1{
-    display: block;
-}
 .wrapper-row{
     display: flex;
     gap: 40px;
@@ -205,9 +202,37 @@ h1{
 .wrapper{
     width: 350px;
     display: inline-block;
+    
 }
 .wrapper h1{
     color: rgb(0, 0, 0);
     font-size: 42px;
-    margin-bottom: -25px;   
+    margin-bottom: -25px;  
+    margin-top: 30px; 
+}
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.banner-wrapper h3{
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    font-family: sans-serif;
+}
+.banner-wrapper-button a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: 300;
+    border: 1px solid red;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 30px;
+    background: red;
+    font-family: sans-serif;
+    font-weight: 400;
 }

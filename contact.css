@@ -343,16 +343,18 @@ form button{
         color: white;
         letter-spacing: normal;
     }
-    .banner-wrapper h3{
-        font-size: 21px;
-    }
-    .banner-wrapper-button a{
-        font-size: 14px;
-    }
-          .banner{
-            gap: 4rem;
-          }
-    .wrapper h1{
-        font-size: 35px;
+.banner{
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+}
+@media (max-width:810px) {
+    .banner{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: start;
     }
 }
+
+

@@ -215,8 +215,8 @@ h5{
     font-size: 35px;
     font-weight: 300;
     color: white;
-    padding: 103px;
-    margin-top: -10px;
+    margin-top: 62px;
+    padding: 25px;
     }
 
 /* media query */
@@ -257,7 +257,7 @@ font-size: 18px;
     font-size: 20px;
 }
 .header{
-    min-height: 30vh;
+    min-height: 40vh;
 }
 h3{
     text-align: center;

@@ -11,10 +11,6 @@
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/background.jpg);
     position: relative;
 }
-.header .nav-links{
-    flex: 1;
-    text-align: right;
-}
 .header nav img{
     width: 150px;
     margin: 15px 30px;
@@ -92,6 +88,10 @@ nav .fa{
 h1{
     font-weight: 300;
     padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 62px;
 }
 nav .fa{
     display: none;
@@ -133,14 +133,7 @@ span{
 }
 
 
-.heading-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 25px;
-    margin-top: 62px;
-}
+
 /* section-2 */
 section{
     width: 80%;
@@ -189,6 +182,20 @@ p{
 .wrapper{
     width: 350px;
     display: inline-block;
+
+    
+}
+iframe{
+    height: 30vh;
+    width: 400px;
+}
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+.map{
+    margin-top: 60px;
     
 }
 .wrapper h1{
@@ -198,7 +205,7 @@ p{
     margin-top: 30px; 
     font-family: sans-serif;
     font-weight: 600;
-    
+    display: inline-block;
 }
 .banner{
     display: flex;
